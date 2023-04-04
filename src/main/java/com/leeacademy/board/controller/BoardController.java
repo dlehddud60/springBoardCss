@@ -13,7 +13,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class BoardController {
-
+	//브랜지 Example1
 	@Autowired
 	private BoardRepository boardRepository;
 
