@@ -39,6 +39,15 @@
     </div>
 
         <div class="row mt-4">
+            <div class="col-md-10 offset-md-1">
+                <div class="form-floating">
+                    <input type="password" name="password" class="form-control" placeholder="비밀번호" required>
+                    <label class="form-label text-secondary">비밀번호</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
             <div class="col-md-10 offset-md-1 text-end">
                 <a href="./" type="button" class="btn btn-secondary btn-lg">목록</a>
                 <button type="submit" class="btn btn-danger btn-lg">수정</button>
