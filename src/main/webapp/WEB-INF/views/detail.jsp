@@ -46,8 +46,8 @@
         <div class="col-md-10 offset-md-1 text-end">
             <a href="write" class="btn btn-primary">글쓰기</a>
             <a href="write" class="btn btn-success">답글쓰기</a>
-            <a href="edit?no=${board.no}" class="btn btn-warning">수정</a>
-            <a href="delete?no=${board.no}" class="btn btn-danger">삭제</a>
+            <a href="password/edit/${board.no}" class="btn btn-warning">수정</a>
+            <a href="password/delete/${board.no}" class="btn btn-danger">삭제</a>
             <a href="./" class="btn btn-dark">목록</a>
         </div>
     </div>
